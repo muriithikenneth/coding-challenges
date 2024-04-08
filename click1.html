@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change color of Div</title>
+
+    <style>
+        div {
+            background-color: aqua;
+        }
+
+        h1 {
+            color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="myDiv">
+        <h1>Welcome to my vlog</h1>
+        <p>I wil be talking about myself</p>
+    </div>
+    <button type="button" onclick="changeBackground()">Change Div color</button>
+    <button type="button" onclick="changecolor()">Change H1 color</button>
+    <button type="button" onclick="changefontsize()">Change p size</button>
+    <script>
+        function changeBackground() {
+            let testDiv = document.getElementById('my Div')
+            testDiv.style.backgroundColor = "blue"
+        }
+        function changecolor() {
+            let headingDiv = document.getElementsById('header')
+            headingDiv.style.backgroundColor = "red"
+        }
+        function changefontsize() {
+            let detail = document.getElementById('paragraph')
+            detail.style.fontSize = "40px"
+            .style.changecolor = "orange"
+        }
+    </script>
+</body>
+
+</html>

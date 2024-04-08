@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick=bringPrompt()>CLICK HERE</button>
+    <script>
+        function bringPrompt() {
+            let length = prompt("Enter the rectangle's length")
+            let width = prompt("Enter the rectangle's width:");
+            let l2 = Number(length);
+            let w2 = Number(width);
+            let perimeter = l2 + l2 + w2 + w2;
+            let area = length * width;
+            alert("The rectangle's perimeter is " + perimeter);
+            alert("The rectangle's area is " + area);
+        }
+    </script>
+</body>
+
+</html>

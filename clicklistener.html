@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Event listener</title>
+    <style>
+        button { cursor: pointer;}
+    </style>
+</head>
+<body>
+    <button id="myButton">Click me</button>
+    <script>
+        const btn = document.querySelector('button');
+        btn.addEventListener('click',function(){
+            alert('button is clicked');
+        });
+    </script>
+</body>
+</html>
